@@ -489,12 +489,26 @@ hr{
 
 .sidebar-content h2 {
     margin: 20px 0;
-    border-bottom: 1px solid #ffffff;
     padding-bottom: 5px;
     text-decoration: none;
     font-size: 20px;
     font-weight: bold;
     color: white;
+    align-items: center;
+    display: flex;
+}
+.sidebar-contentbox{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 2px;
+    border-bottom: 1px white solid;
+}
+
+.sidebar-contentbox:hover{
+    color: rgb(255, 165, 0);
+    
 }
 
 /* Show sidebar */
